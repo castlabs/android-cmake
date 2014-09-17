@@ -1245,7 +1245,7 @@ unset( _ndk_ccache )
 # CCACHE cheat on windows.
 # We need to make sure that we
 # do NOT use ccache as linker
-# hence we get the original 
+# hence we get the original
 # compiler selected frst
 ################################
 if( ANDROID_COMPILER_IS_CLANG )
